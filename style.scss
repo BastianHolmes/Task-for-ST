@@ -8,9 +8,8 @@
   --color-font: #1FA2DE;
   --color-font-2: #919191;
   --color-text:#252525;
-  --color-setting: rgba(31, 162, 222, 1);
-  --color-setting-bg:rgba(230, 244, 251, 1);
-
+  --color-setting: #1FA2DE;
+  --color-setting-bg: #E6F4FB;
 
   --btn-grad:linear-gradient(180deg, #0095D9 0%,#4DB5E4 100%);
 }
@@ -25,11 +24,10 @@
     --color-font:#31BEFF;
     --color-text:#F8F8F8;
     --color-border:transparent;
-    --color-setting: rgba(118, 118, 118, 1);
-    --color-setting-bg:rgba(64, 64, 64, 1);
+    --color-setting: #767676;
+    --color-setting-bg: #404040;
     
     --btn-grad:linear-gradient(180deg, #0095D9 0%, #4DB5E4 100%);
-    
   }
 }
 
@@ -128,6 +126,13 @@ body {
     width: 1.4rem;
     pointer-events: none;
 
+    align-self: center;
+  }
+  &__icon-path{
+    height: 1.4rem;
+    width: 1.4rem;
+    pointer-events: none;
+  
     align-self: center;
   }
   &__ntf{
